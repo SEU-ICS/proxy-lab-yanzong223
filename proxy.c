@@ -8,7 +8,7 @@
 static const char *user_agent_hdr = "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.3) Gecko/20120305 Firefox/10.0.3\r\n";
 
 static void handle_client(int connfd);
-
+//
 static void *worker(void *vargp);
 
 int parse_uri(const char *reqline, char *host, size_t host_sz,
